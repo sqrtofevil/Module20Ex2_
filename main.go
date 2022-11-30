@@ -23,14 +23,14 @@ func main() {
 
 	for i := 0; i < len(matrix54); i++ {
 		for j := 0; j < len(matrix54[i]); j++ {
-			matrix54[i][j] = rand.Intn(5)
+			matrix54[i][j] = rand.Intn(3)
 		}
 	}
-	fmt.Println("Входная матрица 3*5:")
+	fmt.Println("Входная матрица", rowsm1, "*", rowsm2)
 	for i := 0; i < len(matrix35); i++ {
 		fmt.Println(matrix35[i])
 	}
-	fmt.Println("Входная матрица 5*4:")
+	fmt.Println("Входная матрица ", rowsm2, "*", colm2)
 	for i := 0; i < len(matrix54); i++ {
 		fmt.Println(matrix54[i])
 	}
